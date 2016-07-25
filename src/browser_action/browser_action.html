@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+            #mainPopup 
+            {
+                font-family: Helvetica, Ubuntu, Arial, sans-serif;
+                background-color: azure;
+                width: 250px;
+                text-align: center;
+            }
+            section
+            {
+                border-bottom: 1px solid gray;
+                padding: 10px;
+            }
+            #jcProbability {width: 100%;}
+        </style>
+    </head>
+    
+    <body>
+        <div id="mainPopup">
+            <h3>HUSTLE, LOYALTY, AND RESPECT</h3>
+            <section>
+                John Cena probability
+                <input id="jcProbability" type="range" min="0" max="1" step="0.05">
+                <div id="probability"></div><br>
+                Refresh page to take action.
+                <script src="js/browser_action.js"></script>
+            </section>
+        </div>
+    </body>
+</html>

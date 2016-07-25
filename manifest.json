@@ -1,0 +1,36 @@
+{
+  "name": "JC Extension",
+  "version": "1.1",
+  "manifest_version": 2,
+    
+  "default_locale": "en",
+  "description": "JC",
+  "icons": {
+    "16": "icons/icon16.jpeg",
+    "48": "icons/icon48.jpeg",
+    "128": "icons/icon128.jpeg"
+  },
+    
+  "browser_action": {
+    "default_icon": {
+        "16": "icons/icon16.jpeg",
+        "48": "icons/icon48.jpeg",
+        "128": "icons/icon128.jpeg"
+    },
+    "default_title": "JC OVERDRIVE",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+    
+  "homepage_url": "http://instantcena.com",
+    
+  "permissions": ["<all_urls>", "storage"],
+    
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/inject/inject.js"]
+    }
+  ],
+    
+  "short_name": "JohnCenify"
+}
