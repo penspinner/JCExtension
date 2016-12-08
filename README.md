@@ -1,4 +1,4 @@
-# [JCExtension (Chrome Extension)](chrome.google.com/webstore/detail/jc-extension/dhobhbkkiopgcmfednhbppnblnnmdkme)
+# [JCExtension (Chrome Extension)](https://chrome.google.com/webstore/detail/jc-extension/dhobhbkkiopgcmfednhbppnblnnmdkme)
 
 This John Cena extension is the ultimate troll. Depending a random set probability, John Cena's theme will play and he will invade the web page. Want to troll your friends? Install my Chrome Extension to troll your friends with John Cena.
 
